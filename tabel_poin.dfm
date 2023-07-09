@@ -169,4 +169,21 @@ object Form5: TForm5
       'PRESTASI'
       'PELANGGARAN')
   end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Port = 0
+    Left = 464
+    Top = 112
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 536
+    Top = 112
+  end
+  object DataSource1: TDataSource
+    Left = 608
+    Top = 112
+  end
 end

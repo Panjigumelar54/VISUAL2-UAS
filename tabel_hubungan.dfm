@@ -169,4 +169,21 @@ object Form7: TForm7
       'KANDUNG'
       'ANGKAT')
   end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Port = 0
+    Left = 472
+    Top = 112
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 544
+    Top = 112
+  end
+  object DataSource1: TDataSource
+    Left = 616
+    Top = 112
+  end
 end

@@ -251,4 +251,21 @@ object Form8: TForm8
     Time = 45108.545140590280000000
     TabOrder = 14
   end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Port = 0
+    Left = 448
+    Top = 144
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 520
+    Top = 144
+  end
+  object DataSource1: TDataSource
+    Left = 592
+    Top = 144
+  end
 end

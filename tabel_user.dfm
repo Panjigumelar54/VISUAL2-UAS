@@ -173,4 +173,21 @@ object Form6: TForm6
       'AKTIF'
       'TIDAK AKTIF')
   end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Port = 0
+    Left = 456
+    Top = 128
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 528
+    Top = 128
+  end
+  object DataSource1: TDataSource
+    Left = 600
+    Top = 128
+  end
 end

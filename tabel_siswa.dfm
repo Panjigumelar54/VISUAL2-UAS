@@ -384,4 +384,21 @@ object Form1: TForm1
       'MULTIMEDIA'
       'DKV')
   end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Port = 0
+    Left = 424
+    Top = 240
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 496
+    Top = 240
+  end
+  object DataSource1: TDataSource
+    Left = 568
+    Top = 240
+  end
 end

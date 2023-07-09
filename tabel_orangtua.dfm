@@ -234,7 +234,7 @@ object Form3: TForm3
     TitleFont.Style = []
   end
   object Button1: TButton
-    Left = 152
+    Left = 160
     Top = 208
     Width = 113
     Height = 33
@@ -242,7 +242,7 @@ object Form3: TForm3
     TabOrder = 10
   end
   object Button2: TButton
-    Left = 288
+    Left = 296
     Top = 208
     Width = 113
     Height = 33
@@ -250,7 +250,7 @@ object Form3: TForm3
     TabOrder = 11
   end
   object Button3: TButton
-    Left = 424
+    Left = 432
     Top = 208
     Width = 113
     Height = 33
@@ -258,7 +258,7 @@ object Form3: TForm3
     TabOrder = 12
   end
   object Button4: TButton
-    Left = 560
+    Left = 568
     Top = 208
     Width = 113
     Height = 33
@@ -266,7 +266,7 @@ object Form3: TForm3
     TabOrder = 13
   end
   object Button5: TButton
-    Left = 696
+    Left = 704
     Top = 208
     Width = 113
     Height = 33
@@ -279,5 +279,22 @@ object Form3: TForm3
     Width = 265
     Height = 21
     TabOrder = 15
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Port = 0
+    Left = 896
+    Top = 264
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 896
+    Top = 320
+  end
+  object DataSource1: TDataSource
+    Left = 896
+    Top = 384
   end
 end

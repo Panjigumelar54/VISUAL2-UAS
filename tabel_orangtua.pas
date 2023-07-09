@@ -35,6 +35,9 @@ type
     Button4: TButton;
     Button5: TButton;
     Edit7: TEdit;
+    ZConnection1: TZConnection;
+    ZQuery1: TZQuery;
+    DataSource1: TDataSource;
     procedure Button6Click(Sender: TObject);
   private
     { Private declarations }

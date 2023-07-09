@@ -25,6 +25,9 @@ type
     DBGrid1: TDBGrid;
     ComboBox1: TComboBox;
     ComboBox2: TComboBox;
+    ZConnection1: TZConnection;
+    ZQuery1: TZQuery;
+    DataSource1: TDataSource;
     procedure Button6Click(Sender: TObject);
   private
     { Private declarations }

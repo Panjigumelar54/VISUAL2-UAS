@@ -41,6 +41,9 @@ type
     cbb2: TComboBox;
     DBGrid1: TDBGrid;
     cbb3: TComboBox;
+    ZConnection1: TZConnection;
+    ZQuery1: TZQuery;
+    DataSource1: TDataSource;
     procedure btn6Click(Sender: TObject);
     procedure posisiawal;
     procedure bersih;

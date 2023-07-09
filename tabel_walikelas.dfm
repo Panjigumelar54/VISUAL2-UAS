@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 305
-  Top = 172
+  Left = 214
+  Top = 123
   Width = 928
   Height = 480
   Caption = 'WALI KELAS'
@@ -252,5 +252,22 @@ object Form2: TForm2
     Width = 265
     Height = 21
     TabOrder = 14
+  end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Port = 0
+    Left = 448
+    Top = 152
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 520
+    Top = 152
+  end
+  object DataSource1: TDataSource
+    Left = 592
+    Top = 152
   end
 end

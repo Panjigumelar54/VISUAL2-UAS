@@ -33,6 +33,9 @@ type
     ComboBox3: TComboBox;
     DBGrid1: TDBGrid;
     Edit7: TEdit;
+    ZConnection1: TZConnection;
+    ZQuery1: TZQuery;
+    DataSource1: TDataSource;
     procedure Button6Click(Sender: TObject);
   private
     { Private declarations }

@@ -150,4 +150,21 @@ object Form4: TForm4
     Height = 21
     TabOrder = 9
   end
+  object ZConnection1: TZConnection
+    ControlsCodePage = cGET_ACP
+    UTF8StringsAsWideField = False
+    AutoEncodeStrings = False
+    Port = 0
+    Left = 464
+    Top = 120
+  end
+  object ZQuery1: TZQuery
+    Params = <>
+    Left = 536
+    Top = 120
+  end
+  object DataSource1: TDataSource
+    Left = 608
+    Top = 120
+  end
 end

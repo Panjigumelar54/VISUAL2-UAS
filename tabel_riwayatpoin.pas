@@ -33,6 +33,9 @@ type
     DBGrid1: TDBGrid;
     ComboBox1: TComboBox;
     DateTimePicker1: TDateTimePicker;
+    ZConnection1: TZConnection;
+    ZQuery1: TZQuery;
+    DataSource1: TDataSource;
     procedure Button6Click(Sender: TObject);
   private
     { Private declarations }
